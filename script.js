@@ -10,15 +10,15 @@
 
 //how this keyword played in the arrow function
 
-const obj = {
-    name: "JohnIsDon",
-    regularfun: function(){
-        console.log(this.name);
-    },
-    arrfun: () => {
-        console.log(this.name);
-    arrfun
-}
-}
-    console.log(obj.regularfun());
-    console.log(obj.arrfun());
+// const obj = {
+//     name: "JohnIsDon",
+//     regularfun: function(){
+//         console.log(this.name);
+//     },
+//     arrfun: () => {
+//         console.log(this.name);
+//     arrfun
+// }
+// }
+//     console.log(obj.regularfun());
+//     console.log(obj.arrfun());
