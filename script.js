@@ -25,13 +25,22 @@
 
 // Destructing of the Array
 
-const arr = [1, 2, 3];
+// const arr = [1, 2, 3];
 
-// let [first, second] = arr;
-// console.log(second);
-// console.log(first);
+// // let [first, second] = arr;
+// // console.log(second);
+// // console.log(first);
 
-let [, , third] = arr;
-console.log(third);
+// let [, , third] = arr;
+// console.log(third);
 
+// 1. First class functions:
 
+const greet = function(){
+    return "hello";
+}
+const myFn = function(fn){
+    return fn();
+}
+a = myFn(greet);
+console.log(a);
