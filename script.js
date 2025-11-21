@@ -36,11 +36,11 @@
 
 // 1. First class functions:
 
-// const greet = function(){
-//     return "hello";
-// }
-// const myFn = function(fn){
-//     return fn();
-// }
-// a = myFn(greet);
-// console.log(a);
+const greet = function(){
+    return "hello";
+}
+const myFn = function(fn){
+    return fn();
+}
+a = myFn(greet);
+console.log(a);
